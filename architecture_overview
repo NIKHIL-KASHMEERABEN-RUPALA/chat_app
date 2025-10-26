@@ -1,15 +1,15 @@
 chat-app/
 │
-├── server/
-│   ├── ChatServer.java
-│   ├── ClientHandler.java
-│   └── ServerConstants.java
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── client/
+│   │   │   ├── server/
+│   │   │   └── common/
+│   │   └── resources/
+│   │       └── server.properties
+│   └── test/
+│       └── (optional)
 │
-├── client/
-│   ├── ChatClient.java
-│   ├── MessageReceiver.java
-│   └── ClientConstants.java
-│
-└── common/
-    ├── Message.java
-    └── LoggerUtil.java
+├── pom.xml            ← Maven build file
+└── build.gradle       ← Gradle build file (optional alternative)
