@@ -1,0 +1,15 @@
+chat-app/
+│
+├── server/
+│   ├── ChatServer.java
+│   ├── ClientHandler.java
+│   └── ServerConstants.java
+│
+├── client/
+│   ├── ChatClient.java
+│   ├── MessageReceiver.java
+│   └── ClientConstants.java
+│
+└── common/
+    ├── Message.java
+    └── LoggerUtil.java
